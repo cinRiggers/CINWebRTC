@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CINWebRTC"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "WebRTC framework for call."
 
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   
   spec.author       =  "Riggers"
   spec.source       = { :git => "https://github.com/cinRiggers/CINWebRTC.git", :tag => "#{spec.version}" }
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "9.2"
   
   spec.static_framework = false
   spec.requires_arc = true
